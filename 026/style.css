@@ -1,0 +1,38 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+body {
+    background-color: black;
+    color: white;
+}
+
+.layout {
+    margin: 50px;
+    text-align: center;
+    background-color: rgb(30, 30, 30);
+    padding: 50px;
+}
+
+/*-----------------------------------------*/
+.link {
+    color: rgb(10,193,218);
+    text-decoration: none;
+}
+.link:visited{
+    color:rgb(255, 0, 0)
+}
+.link:hover {
+    color:rgb(299, 255, 0)
+}
+
+.link:active{
+    color:rgb(0, 102, 255)
+} 
+/* ------------------------------------- */
+h1::first-letter{
+    background-color: blue;
+    font-size: 60px;
+}
